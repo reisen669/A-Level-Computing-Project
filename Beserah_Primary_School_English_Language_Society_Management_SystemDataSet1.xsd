@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Beserah_Primary_School_English_Language_Society_Management_SystemDataSet1" targetNamespace="http://tempuri.org/Beserah_Primary_School_English_Language_Society_Management_SystemDataSet1.xsd" xmlns:mstns="http://tempuri.org/Beserah_Primary_School_English_Language_Society_Management_SystemDataSet1.xsd" xmlns="http://tempuri.org/Beserah_Primary_School_English_Language_Society_Management_SystemDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="Beserah_Primary_School_English_Language_Society_Management_SystemConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Beserah_Primary_School_English_Language_Society_Management_SystemConnectionString1 (MySettings)" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.Beserah_Primary_School_English_Language_Society_Management_SystemConnectionString1" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="qryEventInfoForPresentListTableAdapter" GeneratorDataComponentClassName="qryEventInfoForPresentListTableAdapter" Name="qryEventInfoForPresentList" UserDataComponentName="qryEventInfoForPresentListTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Beserah_Primary_School_English_Language_Society_Management_SystemConnectionString1 (MySettings)" DbObjectName="qryEventInfoForPresentList" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Event ID], [Event Name], [Event Venue], [Event Date] FROM qryEventInfoForPresentList</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Event ID" DataSetColumn="Event ID" />
+              <Mapping SourceColumn="Event Name" DataSetColumn="Event Name" />
+              <Mapping SourceColumn="Event Venue" DataSetColumn="Event Venue" />
+              <Mapping SourceColumn="Event Date" DataSetColumn="Event Date" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="qryPresentListTableAdapter" GeneratorDataComponentClassName="qryPresentListTableAdapter" Name="qryPresentList" UserDataComponentName="qryPresentListTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Beserah_Primary_School_English_Language_Society_Management_SystemConnectionString1 (MySettings)" DbObjectName="qryPresentList" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Member ID], Condition, [Member Name], Attendance, [Event ID] FROM qryPresentList</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Member ID" DataSetColumn="Member ID" />
+              <Mapping SourceColumn="Condition" DataSetColumn="Condition" />
+              <Mapping SourceColumn="Member Name" DataSetColumn="Member Name" />
+              <Mapping SourceColumn="Attendance" DataSetColumn="Attendance" />
+              <Mapping SourceColumn="Event ID" DataSetColumn="Event ID" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Beserah_Primary_School_English_Language_Society_Management_SystemDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Beserah_Primary_School_English_Language_Society_Management_SystemDataSet1" msprop:Generator_UserDSName="Beserah_Primary_School_English_Language_Society_Management_SystemDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="qryEventInfoForPresentList" msprop:Generator_TableClassName="qryEventInfoForPresentListDataTable" msprop:Generator_TableVarName="tableqryEventInfoForPresentList" msprop:Generator_TablePropName="qryEventInfoForPresentList" msprop:Generator_RowDeletingName="qryEventInfoForPresentListRowDeleting" msprop:Generator_RowChangingName="qryEventInfoForPresentListRowChanging" msprop:Generator_RowEvHandlerName="qryEventInfoForPresentListRowChangeEventHandler" msprop:Generator_RowDeletedName="qryEventInfoForPresentListRowDeleted" msprop:Generator_UserTableName="qryEventInfoForPresentList" msprop:Generator_RowChangedName="qryEventInfoForPresentListRowChanged" msprop:Generator_RowEvArgName="qryEventInfoForPresentListRowChangeEvent" msprop:Generator_RowClassName="qryEventInfoForPresentListRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Event_x0020_ID" msprop:Generator_ColumnVarNameInTable="columnEvent_ID" msprop:Generator_ColumnPropNameInRow="Event_ID" msprop:Generator_ColumnPropNameInTable="Event_IDColumn" msprop:Generator_UserColumnName="Event ID" type="xs:short" />
+              <xs:element name="Event_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnEvent_Name" msprop:Generator_ColumnPropNameInRow="Event_Name" msprop:Generator_ColumnPropNameInTable="Event_NameColumn" msprop:Generator_UserColumnName="Event Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Event_x0020_Venue" msprop:Generator_ColumnVarNameInTable="columnEvent_Venue" msprop:Generator_ColumnPropNameInRow="Event_Venue" msprop:Generator_ColumnPropNameInTable="Event_VenueColumn" msprop:Generator_UserColumnName="Event Venue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Event_x0020_Date" msprop:Generator_ColumnVarNameInTable="columnEvent_Date" msprop:Generator_ColumnPropNameInRow="Event_Date" msprop:Generator_ColumnPropNameInTable="Event_DateColumn" msprop:Generator_UserColumnName="Event Date" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="qryPresentList" msprop:Generator_TableClassName="qryPresentListDataTable" msprop:Generator_TableVarName="tableqryPresentList" msprop:Generator_TablePropName="qryPresentList" msprop:Generator_RowDeletingName="qryPresentListRowDeleting" msprop:Generator_RowChangingName="qryPresentListRowChanging" msprop:Generator_RowEvHandlerName="qryPresentListRowChangeEventHandler" msprop:Generator_RowDeletedName="qryPresentListRowDeleted" msprop:Generator_UserTableName="qryPresentList" msprop:Generator_RowChangedName="qryPresentListRowChanged" msprop:Generator_RowEvArgName="qryPresentListRowChangeEvent" msprop:Generator_RowClassName="qryPresentListRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Member_x0020_ID" msprop:Generator_ColumnVarNameInTable="columnMember_ID" msprop:Generator_ColumnPropNameInRow="Member_ID" msprop:Generator_ColumnPropNameInTable="Member_IDColumn" msprop:Generator_UserColumnName="Member ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Condition" msprop:Generator_ColumnVarNameInTable="columnCondition" msprop:Generator_ColumnPropNameInRow="Condition" msprop:Generator_ColumnPropNameInTable="ConditionColumn" msprop:Generator_UserColumnName="Condition" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Member_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnMember_Name" msprop:Generator_ColumnPropNameInRow="Member_Name" msprop:Generator_ColumnPropNameInTable="Member_NameColumn" msprop:Generator_UserColumnName="Member Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Attendance" msprop:Generator_ColumnVarNameInTable="columnAttendance" msprop:Generator_ColumnPropNameInRow="Attendance" msprop:Generator_ColumnPropNameInTable="AttendanceColumn" msprop:Generator_UserColumnName="Attendance" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Event_x0020_ID" msprop:Generator_ColumnVarNameInTable="columnEvent_ID" msprop:Generator_ColumnPropNameInRow="Event_ID" msprop:Generator_ColumnPropNameInTable="Event_IDColumn" msprop:Generator_UserColumnName="Event ID" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:qryEventInfoForPresentList" />
+      <xs:field xpath="mstns:Event_x0020_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
