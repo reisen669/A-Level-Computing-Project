@@ -1,0 +1,14 @@
+D:\Computing Project\Main Menu\Main Menu\bin\Debug\Main Menu.exe.config
+D:\Computing Project\Main Menu\Main Menu\bin\Debug\Main Menu.exe
+D:\Computing Project\Main Menu\Main Menu\bin\Debug\Main Menu.pdb
+D:\Computing Project\Main Menu\Main Menu\bin\Debug\Main Menu.xml
+D:\Computing Project\Main Menu\Main Menu\obj\Debug\WindowsApplication1.frmMainMenu.resources
+D:\Computing Project\Main Menu\Main Menu\obj\Debug\WindowsApplication1.frmMemberRecord.resources
+D:\Computing Project\Main Menu\Main Menu\obj\Debug\WindowsApplication1.Resources.resources
+D:\Computing Project\Main Menu\Main Menu\obj\Debug\Main Menu.vbproj.GenerateResource.Cache
+D:\Computing Project\Main Menu\Main Menu\obj\Debug\Main Menu.exe
+D:\Computing Project\Main Menu\Main Menu\obj\Debug\Main Menu.xml
+D:\Computing Project\Main Menu\Main Menu\obj\Debug\Main Menu.pdb
+D:\Computing Project\Main Menu\Main Menu\obj\Debug\WindowsApplication1.frmEventRecord.resources
+D:\Computing Project\Main Menu\Main Menu\obj\Debug\WindowsApplication1.frmEventAttendance.resources
+D:\Computing Project\Main Menu\Main Menu\obj\Debug\WindowsApplication1.frmSpecificEvent.resources
